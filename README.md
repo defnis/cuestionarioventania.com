@@ -1,2 +1,2 @@
 # cuestionarioventania.com
-Cuesntionario para proyecto de tesis.
+Cuestionario para proyecto de tesis.
