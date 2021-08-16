@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,500&display=swap " rel="stylesheet ">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="wrap">
+            <form action="enviar.php" method="post" class="form">
+
+                <p class="form__paragraph">Mi nombre es Jose Waiman, soy Licenciado en Turismo. <br> Esta encuesta nace con el fin de realizar un estudio POST-COVID <br> sobre la actividad turistica en el Partido de Tornquist, <br> si queres saber más sobre este proyecto,
+                    <a href="presentacion.html" class="form__link"> haz click aca.</a><br><br>
+                    <h2 class="form__title">Formulario</h2><br>
+                </p>
+
+
+                <label for="date"> Fecha </label>
+                <input type="date" required><br><br>
+
+                <div class="wrapper">
+                    <div class="input-data">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                </div>
+
+                <div class="radio" id="Sexo">
+                    <label for="sex"> Sexo:  </label><br>
+                    <input type="radio" name="sexo">Masculino<br>
+                    <input type="radio" name="sexo">Femenino<br>
+                    <input type="radio" name="sexo">Transexual<br>
+                    <input type="radio" name="sexo">Bisexual<br>
+                    <input type="radio" name="sexo">Gay<br>
+                    <input type="radio" name="sexo">Lesbiana<br>
+                    <input type="radio" name="sexo">Otro<br><br>
+                </div>
+
+                <div id="edad">
+                    <label for="age"> Edad: </label><br>
+                    <input type="radio" name="edad">De 0 a 30 años<br>
+                    <input type="radio" name="edad">De 30 a 60 años<br>
+                    <input type="radio" name="edad">De 60 o + <br><br>
+                </div>
+
+                <div class="checkbox" id="Viaja solo o acompañado">
+                    <label>Viaja solo o en grupo: </label><br>
+                    <input type="checkbox" name="sexo">Solo<br>
+                    <input type="checkbox" name="sexo">Grupo Familiar<br>
+                    <input type="checkbox" name="sexo">Amig@s<br>
+                    <input type="checkbox" name="sexo">Turismo deportivo<br>
+                    <input type="checkbox" name="sexo">Turismo de Naturaleza<br><br>
+                </div>
+
+                <div class="checkbox" id="Actividades Favoritas">
+                    <label>Actividades Favoritas: </label><br>
+                    <input type="checkbox" name="sexo">Turismo de Observación<br>
+                    <input type="checkbox" name="sexo">Turismo Gastronomico<br>
+                    <input type="checkbox" name="sexo">Turismo Religioso<br>
+                    <input type="checkbox" name="sexo">Turismo deportivo<br>
+                    <input type="checkbox" name="sexo">Turismo de Naturaleza<br>
+                    <input type="checkbox" name="sexo">Turismo Cultural<br>
+                    <input type="checkbox" name="sexo">Turismo historico<br>
+                    <input type="checkbox" name="sexo">Turismo Rural<br>
+                    <input type="checkbox" name="sexo">Trekking<br>
+                    <input type="checkbox" name="sexo">Hiding<br><br>
+                </div>
+
+                <div class="option" id="Dias de estadia">
+                    <label>Días de estadia </label>
+                    <select name="" id="" class="select">
+                        <option value=""></option>
+                        <option value="">1 noche</option>
+                        <option value="">2 noches</option>
+                        <option value="">3 noches</option>
+                        <option value="">4 noches</option>
+                        <option value="">5 noches</option>
+                        <option value="">6 noches</option>
+                        <option value="">7 noches</option>
+                        <option value="">8 noches</option>
+                        <option value="">9 noches</option>
+                        <option value="">10 noches</option>
+                        <option value="">11 noches</option>
+                        <option value="">12 noches</option>
+                        <option value="">13 noches</option>
+                        <option value="">14 noches</option>
+                        <option value="">15 noches</option>
+                        <option value="">16 noches</option>
+                        <option value="">17 noches</option>
+                        <option value="">18 noches</option>
+                        <option value="">18 noches</option>
+                        <option value="">19 noches</option>
+                        <option value="">20 noches</option>
+                        <option value="">21 noches</option>
+                        <option value="">22 noches</option>
+                        <option value="">23 noches</option>
+                        <option value="">24 noches</option>
+                        <option value="">25 noches</option>
+                        <option value="">26 noches</option>
+                        <option value="">27 noches</option>
+                        <option value="">28 noches</option>
+                        <option value="">29 noches</option>
+                        <option value="">30 noches</option>
+                        <option value="">+ noches</option>
+                    </select><br><br>
+                </div>
+
+                <div id="Paises de Residencia">
+                    <label>Paises de Residencia: </label>
+                    <select name="" class="select">
+                        <option value="" class="option">Argentina</option>
+                        <option value="" class="option">Peru</option>
+                        <option value="" class="option">Brasil</option>
+                        <option value="" class="option">Chile</option>
+                        <option value="" class="option">Bolivia</option>
+                        <option value="" class="option">Paraguay</option>
+                        <option value="">Resto de America</option>
+                        <option value="">Euro-Asiatico</option>
+                  </select><br><br>
+                </div>
+
+                <div id="Alojamiento elegido">
+                    <label>Alojamiento elegido: </label>
+                    <select name="alojamiento">
+                    <option value=""></option>
+                  <optgroup label="Tornquist">
+                    <option>Hotel</option>
+                    <option>Cabañas</option>
+                    <option>Camping</option>
+                    <option>Casa de amigos</option>
+                    <option>Otro</option>
+                  </optgroup>
+                  <optgroup label="Villa Serrana La Gruta">
+                    <option>Hotel</option>
+                    <option>Cabañas</option>
+                    <option>Camping</option>
+                    <option>Casa de amigos</option>
+                    <option>Otro</option>
+                  </optgroup>
+                  <optgroup label="San Andrés de las Sierras">
+                    <option>Hotel</option>
+                    <option>Cabañas</option>
+                    <option>Camping</option>
+                    <option>Casa de amigos</option>
+                    <option>Otro</option>
+                  </optgroup>
+                  <optgroup label="Villa Ventana">
+                    <option>Hotel</option>
+                    <option>Cabañas</option>
+                    <option>Camping</option>
+                    <option>Casa de amigos</option>
+                    <option>Otro</option>
+                  </optgroup>
+                  <optgroup label="Sierra de la Ventana">
+                    <option>Hotel</option>
+                    <option>Cabañas</option>
+                    <option>Camping</option>
+                    <option>Casa de amigos</option>
+                    <option>Otro</option>
+                  <optgroup label="Saldungaray">
+                    <option>Hotel</option>
+                    <option>Cabañas</option>
+                    <option>Camping</option>
+                    <option>Casa de amigos</option>
+                    <option>Otro</option>
+                  </optgroup>
+                  </optgroup><br><br>
+                    </select>
+                </div>
+
+
+                <div id="Ciudad de Origen">
+                    <label>Ciudad de Origen: </label><br>
+                    <textarea name="" id="textarea" class="textarea"></textarea><br><br>
+                    <label>Describa lo que lo sorprendio: </label><br>
+                    <textarea name="" id="textarea" class="textarea"></textarea><br><br>
+                    <label>Describa lo que lo haya desilucionado: </label><br>
+                    <textarea name="" id="textarea" class="textarea"></textarea><br>
+                </div>
+
+                <div id="Transporte elegido">
+                    <label>Transporte Elegido para viajar: </label><br>
+                    <select name="" id="" class="select">
+                      <option value=""></option>
+                      <option value="">Automovil</option>
+                      <option value="">Autobus</option>
+                      <option value="">Tren</option>
+                      <option value="">Bicicleta</option>
+                      <option value="">A pie</option>
+                      <option value="">Taxi/Remis</option><br>
+                    </select>
+                </div>
+
+                <div id="Visitas al año">
+                    <label>Veces que ha visitado el partido de Tornquist: </label><br>
+                    <select name="" id="" class="select">
+                      <option value=""></option>
+                      <option value="">Es la primera vez</option>
+                      <option value="">Segunda vez</option>
+                      <option value="">Alguna vez al año</option>
+                      <option value="">Varias veces al año</option>
+                      <option value="">Otro</option><br><br>
+                  </select>
+                </div>
+
+                <div id="Como descubrio la comarca">
+                    <label>Como descubrio la comarca turistica: </label><br>
+                    <select name="" id="" class="select">
+                      <option value=""></option>
+                      <option value="">Periodico</option>
+                      <option value="">Revista</option>
+                      <option value="">Television</option>
+                      <option value="">Youtube</option>
+                      <option value="">Instagram</option>
+                      <option value="">Por un amigo o pariente</option>
+                      <option value="">Otro</option><br><br>
+                      </select>
+                </div>
+
+                <div id="Volveria a viajar">
+                    <label>En un corto plazo, volveria a viajar a Tornquist: </label><br>
+                    <select name="" id="" class="select"> 
+                      <option value=""></option>
+                      <option value="">Si, sin dudarlo</option>
+                      <option value="">Si, es probable</option>
+                      <option value="">Quizas</option>
+                      <option value="">No lo se todavia</option>
+                      <option value="">No volveria jamas</option><br><br>
+                    </select>
+                </div>
+
+                <div id="Motivos para Viajar">
+                    <label>Motivos para volver: </label><br>
+                    <textarea name="" id="textarea" class="textarea"></textarea><br><br>
+
+                    <label>Nombre 3 atractivos turistico o excursiones, que visito durante su estadia: </label><br>
+                    <textarea name="" id="textarea" class="textarea"></textarea><br><br>
+                </div>
+
+                <div id="Recomendaciones a amigos">
+                    <label>Considera recomendar a familiares y amigos, que visiten Tornquist: </label><br>
+                    <select name="" id="" class="select">
+                  <option value=""></option>
+                  <option value="">Si, sin dudarlo</option>
+                  <option value="">Si, es probable</option>
+                  <option value="">Quizas</option>
+                  <option value="">No lo se todavia</option>
+                  <option value="">No volveria jamas</option><br><br>
+                  </select>
+                </div>
+
+                <div id="Tuvo COVID">
+                    <label>En el momento de viajar al partido de Tornquist, cual era su situacion COVID: </label><br>
+                    <select name="" id="" class="select">
+                    <option value=""></option>
+                    <option value="">Ya habia tenido el virus</option>
+                    <option value="">Nunca he tenido el virus</option><br><br>
+                    </select>
+                </div>
+
+                <div id="Fue Vacunado">
+                    <label>En el momento de viajar al partido de Tornquist, fue vacunado: </label><br>
+                    <select name="" id="" class="select">
+                  <option value=""></option>
+                  <option value="">Tengo la primer vacuna</option>
+                  <option value="">Tengo las dos vacunas</option>
+                  <option value="">No tengo ninguna vacuna</option><br><br>
+                </select>
+                </div>
+
+                <div>
+                    <label>Fotografias del Viaje: </label><br>
+                    <input type="file"><br><br>
+                    <label>Comentarios: </label><br>
+                    <textarea name="" id="textarea" class="textarea"></textarea><br><br>
+                    <label> Limpiar: </label>
+                    <input type="reset"><br>
+                    <br><a href="#" class="enviar">Enviar</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
